@@ -1,0 +1,45 @@
+{
+  "chat.promptFilesLocations": {
+    "docs/copilotinstructions/prompts": true
+  },
+  "chat.modeFilesLocations": {
+    "docs/copilotinstructions/chatmodes": true
+  },
+  "chat.instructionsFilesLocations": {
+    "docs/copilotinstructions/instructions": true
+  },
+  "github.copilot.chat.codeGeneration.instructions": [
+    {
+      "file": "docs/copilotinstructions/chatmodes/data-getter.md",
+      "text": "@data-getter"
+    },
+    {
+      "file": "docs/copilotinstructions/chatmodes/data-engineer.md",
+      "text": "@data-engineer"
+    },
+    {
+      "file": "docs/copilotinstructions/chatmodes/predictor.md",
+      "text": "@predictor"
+    },
+    {
+      "file": "docs/copilotinstructions/chatmodes/updater.md",
+      "text": "@updater"
+    },
+    {
+      "file": "docs/copilotinstructions/prompts/data-getter-prompt.md",
+      "text": "@data-getter-prompt"
+    },
+    {
+      "file": "docs/copilotinstructions/prompts/data-engineer-prompt.md",
+      "text": "@data-engineer-prompt"
+    },
+    {
+      "file": "docs/copilotinstructions/prompts/predictor-prompt.md",
+      "text": "@predictor-prompt"
+    },
+    {
+      "file": "docs/copilotinstructions/prompts/updater-prompt.md",
+      "text": "@updater-prompt"
+    }
+  ]
+}

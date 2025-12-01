@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run NFL Predictor App",
+			"type": "shell",
+			"command": "cd src && Rscript -e \"shiny::runApp(port=3838, host='0.0.0.0')\"",
+			"group": "build",
+			"isBackground": true,
+			"problemMatcher": []
+		}
+	]
+}
